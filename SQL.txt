@@ -1,0 +1,15 @@
+"select  \n" +
+"msh.SYAINID, \n" +
+"mh.HOBBY_ID, \n" +
+"mh.HOBBY_NAME, \n" +
+"mc.CATEGORY_ID, \n" +
+"mc.CATEGORY_NAME \n" +
+" \n" +
+"from \n" +
+"MS_SYAIN_HOBBY msh, \n" +
+"MS_HOBBY mh, \n" +
+"MS_CATEGORY mc \n" +
+" \n" +
+"where 1=1 \n" +
+"and msh.HOBBY_ID = mh.HOBBY_ID \n" +
+"and mh.CATEGORY_ID = mc.CATEGORY_ID \n" +
